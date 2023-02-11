@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Libre"; 
+    src: url(fonts/libre_bakerville/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Libre Bold"; 
+    src: url(fonts/libre_baskerville/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Libre Italic'; 
+    src: url(fonts/libre_baskerville/LibreBaskerville-Italic.ttf);
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: 0;
+    background-color: #f6e7cb;
+}
+
+body {
+    font-family: Libre;
+    font-size: 18px;
+}
+
+.menu-container {
+    color: black; /* font color */
+    background-color: white; /* tmp color */
+    padding: 20px 0px;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-info {
+    display: flex; 
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.learn-more {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.page-container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* vertical alignment */
+    margin: 50px;
+}
+
+.page-title {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.definition {
+    font-family: "Libre Italic", sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.informational-grid {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.educational-text {
+    width: 55%;
+    height: 450px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.blend4web-interaction {
+    width: 35%;
+    height: 450px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
