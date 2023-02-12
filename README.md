@@ -8,7 +8,7 @@ We wanted to address this issue by creating a website that renders 3D models of 
 <h1>How We Built CURA: </h1>
 VS Code (HTML and CSS), Blender, Powerpoint, Sketchfab, Screencastify,
  
-<h1>Sources: <h1>
+<h1>Sources: </h1>
 https://alvarotrigo.com/blog/css-text-animations/
 https://pubmed.ncbi.nlm.nih.gov/34079319/
 https://www.medicalnewstoday.com/articles/skin-cancer-by-race#:~:text=A%202016%20study%20found%20that,Hispanic%20people%20and%20other%20ethnicities
