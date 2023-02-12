@@ -1,50 +1,40 @@
 <!DOCTYPE html>
-<html lang = "en">
-        <head>
-            <meta charset = "utf-8"/>
-            <title></title>
-            <link rel = "stylesheet" href = "main.css" /> 
-        </head>
-        <body>
+<html>
+    <head>
+        <title>CURA</title>
+        <link rel = "stylesheet" href = "home.css"/>
+        <link rel = "stylesheet" href = "main.css"/>
+    </head>
+    <body>
+        <div id = "block"></div>
         <!--NAVIGATION BAR-->
-            <div class = "menu-container">
-                <div class = "menu">
-                    <div class = "logo">LOGO</div>
-                    <div class = "more-info">
-                        <div class = "about-us">ABOUT US</div>
-                        <div class = "learn-more">LEARN MORE</div>
-                    </div>
+        <div class = "menu-container">
+            <div class = "menu">
+                <div id = "cura"><img class = "logo" src = "pictures/thumbnail_curalogo-removebg-preview.png">CURA</div>
+                <div class = "more-info">
+                    <div class = "menu-text">ABOUT US</div>
+                    <div class = "learn-more menu-text">LEARN MORE</div>
                 </div>
             </div>
+        </div>
         <!--PAGE-->
-            <div class = "page-container">
+        <div class = "page-container">
                 <div class = "page">
-                    <h1 class = "page-title">MELANOMA</h1>
-                    <p class = "definition">(n.) cancer of the skin</p> <!--Melanoma definition-->
-                    <!--EDUCATIONAL PORTION-->
-                    <div class = "informational-grid">
-                        <div class = "educational-text">
-
-                        </div>
-                        <div class = "blend4web-interaction"> 
-                    
-                        </div>
-                        <div class = "blend4web-interaction"> 
-                    
-                        </div>
-                        <div class = "educational-text">
-
-                        </div>
-                        <div class = "educational-text">
-
-                        </div>
-                        <div class = "blend4web-interaction"> 
-                    
-                        </div>
-                    </div>
+                    <svg viewBox="0 0 960 300">
+                        <symbol id  = "s-text">
+                            <text class = "animated-title" text-anchor="middle" x="50%" y="90%">CURA</text>
+                            <text class = "animated-title" text-anchor="middle" x="52%" y="90%">CURA</text>
+                        </symbol>
+                
+                        <g class = "g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
                 </div>
-            </div>
-        <!--FOOTER-->
-        </body>
-
+        </div>
+    </body>
 </html>

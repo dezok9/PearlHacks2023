@@ -1,0 +1,95 @@
+svg {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 175px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.page-container {
+    border: 1px solid white;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.animated-title {
+    letter-spacing: 20px;
+}
+
+/* First Animated Text */
+
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #c58c85;
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(2){
+	stroke: #503335;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #ecbcb4;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #a1665e;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: o#ecbcb4;
+	animation-delay: -5s;
+}
+
+
+/* Second Animated Text */
+
+
+.text1-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text1-copy:nth-child(1){
+	stroke: #663a82;
+	animation-delay: -1s;
+}
+
+.text1-copy:nth-child(2){
+	stroke: #b491c8;
+	animation-delay: -2s;
+}
+
+.text1-copy:nth-child(3){
+	stroke: #3c1361;
+	animation-delay: -3s;
+}
+
+.text1-copy:nth-child(4){
+	stroke: #bca0dc;
+	animation-delay: -4s;
+}
+
+.text1-copy:nth-child(5){
+	stroke: o#7c5292;
+	animation-delay: -5s;
+}

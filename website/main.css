@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Libre"; 
-    src: url(fonts/libre_bakerville/LibreBaskerville-Regular.ttf);
+    font-family: 'Libre'; 
+    src: url(fonts/libre_baskerville/LibreBaskerville-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Libre Bold"; 
+    font-family: 'Libre Bold'; 
     src: url(fonts/libre_baskerville/LibreBaskerville-Bold.ttf);
 }
 
@@ -13,49 +13,104 @@
     src: url(fonts/libre_baskerville/LibreBaskerville-Italic.ttf);
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/inter/Inter-V.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(fonts/inter/Inter-Bold.otf);
+}
+
 * {
     margin: 0; 
     padding: 0;
     box-sizing: 0;
-    background-color: #f6e7cb;
+    background-color: #0A0A0A;
+    color: white;
 }
 
 body {
-    font-family: Libre;
+    font-family: 'Libre';
     font-size: 18px;
 }
 
+.animation {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    z-index: 0;
+}
+
+@keyframes slide {
+    0% {left: 0px; top: 75px; opacity: 0;}
+    100% {left: 0px; top: 0px; opacity: 1}
+}
+
 .menu-container {
-    color: black; /* font color */
-    background-color: white; /* tmp color */
-    padding: 20px 0px;
+    font-family: 'Inter';
+    color: white; /* font color */
+    background-color: #0A0A0A; 
+    padding: 0px 0px;
     display: flex;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#block {
+    position: auto;
+    top: auto;
+    height: 100px;
+    width: 100%;
 }
 
 .menu {
-    width: 80%;
-    background-color: white;
-    padding: 30px;
+    width: 70%;
+    background-color: #0A0A0A;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .more-info {
     display: flex; 
     width: 30%;
     justify-content: flex-end;
+    background-color: #0A0A0A;
+    text-align: center;
+
+}
+
+.logo {
+    width: 10%;
+    background-color: #0A0A0A;
+    margin: 0px;
+    vertical-align: middle;
 }
 
 .learn-more {
     margin-left: 20%;
-    margin-right: 20%;
+    background-color: #0A0A0A;
+    color: white;
+}
+
+
+.menu-text {
+    color: white;
+    background-color: #0A0A0A; /*change*/
+}
+
+.menu-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .page-container {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -71,17 +126,41 @@ body {
 }
 
 .page-title {
-    font-size: 50px;
+    font-family: 'Inter';
+    font-size: 100px;
     width: 100%;
     text-align: center;
+    line-height: 80%;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0);
 }
 
 .definition {
     font-family: "Libre Italic", sans-serif;
+    background-color: rgb(255, 255, 255, 0);
     width: 100%;
+    color: #e8d9c2;
+    margin: 0px 190px 0px 190px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     padding-bottom: 20px;
+}
+
+#cura {
+    font-family: 'Inter Bold';
+    color: white;
+    font-size: 40px;
+    background-color: #0A0A0A;
+    text-decoration: none;
+}
+
+.blurb {
+    font-family: "Libre", sans-serif;
+    font-size: 18px;
+    color: grey;
+    margin: 0px 60px 0px 60px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .informational-grid {
@@ -89,23 +168,29 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid black;
 }
 
 .educational-text {
-    width: 55%;
-    height: 450px;
-    background-color: rgb(255, 255, 255, 0.5);
-    border: 1px solid black;
+    width: 43%;
+    background-color: rgb(255, 255, 255, 0.2);
+    color: white;
     border-radius: 30px;
     margin: 10px;
+    padding: 50px;
+    line-height: 1.24;
 }
 
 .blend4web-interaction {
     width: 35%;
-    height: 450px;
+    height: 400px;
     align-items: center;
-    border-radius: 30px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
     margin: 10px;
+}
+
+.interactive {
+    height: 350px;
+    border-radius: 40px;
+    border: none;
 }
