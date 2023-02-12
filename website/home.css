@@ -7,15 +7,47 @@ svg {
     margin: 0 auto;
 }
 
-.page-container {
-    border: 1px solid white;
+.page {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.slogan {
+    color: lightgrey; 
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-family: 'Inter'; 
+    font-size: 30px;
+}
+
+.overview {
+    color: lavender; 
+    text-align: center; 
+    width: 50%;
+    font-family: 'Libre';
+}
+
+.statistics {
+    display: flex;
+    color: lavender; 
+    text-align: center; 
+}
+
+.flexible {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
 
-.animated-title {
+.animated-text {
     letter-spacing: 20px;
 }
 
@@ -93,3 +125,47 @@ svg {
 	stroke: o#7c5292;
 	animation-delay: -5s;
 }
+
+
+/* Third Animated Text */
+
+
+
+.text2-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+  }
+  
+  .text2-copy:nth-child(1){
+  stroke: #658364;
+  animation-delay: -1s;
+  }
+  
+  .text2-copy:nth-child(2){
+  stroke: #95bb72;
+  animation-delay: -2s;
+  }
+  
+  .text2-copy:nth-child(3){
+  stroke: #4b6043;
+  animation-delay: -3s;
+  }
+  
+  .text2-copy:nth-child(4){
+  stroke: #a3c585;
+  animation-delay: -4s;
+  }
+  
+  .text2-copy:nth-child(5){
+  stroke: o#87ab69;
+  animation-delay: -5s;
+  }
+  
+  @keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+  }
+  

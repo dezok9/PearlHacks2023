@@ -151,7 +151,7 @@ body {
     color: white;
     font-size: 40px;
     background-color: #0A0A0A;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .blurb {
