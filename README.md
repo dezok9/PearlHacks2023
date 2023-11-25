@@ -1,6 +1,6 @@
 # Pearl Hacks 2023
 <h1>Inspiration</h1>
-There was a viral TikTok about black representation in medical textbooks - revealed by the fact that students were shocked when they saw a diagram of a Black pregnant woman in a textbook. It opened our eyes to how there's a lack of representation in the medical field, which can be detrimental in diagnosing serious disorders like skin cancer.
+At the start of 2023, a viral TikTok sparked discussion about a lack of Black representation in medical textbooks. This project, CURA, seeks to begin to acknowledge and provide representation for Black individuals, particularly in the context of medicine. 
  
 <h1>What CURA Does: </h1>
 We wanted to address this issue by creating a website that renders 3D models of darker skin tones layered with images of melanoma, allowing patients to have an increased awareness/ability to self-diagnose. This could also serve as a learning tool in K-12 classroom or eventually more advanced areas to contribute to more diversity in STEM representation.
