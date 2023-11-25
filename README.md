@@ -1,4 +1,6 @@
 <h1>Pearl Hacks 2023<h1>
+**[Devpost Project](https://devpost.com/software/cura-1xmonf)**
+ 
 <h2>Inspiration</h2>
 At the start of 2023, a viral TikTok sparked discussion about a lack of Black representation in medical textbooks. This project, CURA, seeks to begin to acknowledge and provide representation for Black individuals, particularly in the context of medicine. 
  
